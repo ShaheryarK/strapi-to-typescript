@@ -15,7 +15,7 @@
     "pretest": "rm -rf ./src/test/out*",
     "test": "ts-node src/test.ts",
     "test12": "ts-node src/test.ts test1 test2",
-    "prepublishOnly": "npm run build && npm run test"
+    "prepublishOnly": "npm run build && npm run test",
     "sts": "sts ./src -o ./sts"
   },
   "repository": {
